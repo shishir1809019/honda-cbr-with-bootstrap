@@ -19,55 +19,60 @@
 <body>
     <!-- header section -->
     <header class="header-main">
-       <div class="container-md  d-flex  justify-content-center align-items-center header flex-wrap">
-        <div class="mt-5 w-50">
-           <p>Computer-controlled digital transistorized with electronic advance</p>
-           <h1 class="text-light mt-2">Honda CBR 300R</h1>
-           <p class="w-75 mt-3 mb-3">Amet minim mollit non deserunt ullamco est sit aliqua 
-            dolor do amet sint. Velit officia consequat duis enim velit 
-            mollit. Exercitation veniam consequat sunt nostrud amet</p>
-            <button type="button" class="button btn " data-bs-toggle="modal" data-bs-target="#exampleModal"
-                    data-bs-whatever="@mdo">Purchase</button>
-                <div class="modal fade text-body" id="exampleModal" tabindex="-1"
-                    aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Please login first:</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <form>
-                                    <div class="mb-3">
-                                        <label for="recipient-name" class="col-form-label">Email:</label>
-                                        <input type="email" class="form-control" placeholder="Enter Your Email"
-                                            id="recipient-name">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="message-text" class="col-form-label">Password:</label>
-                                        <input type="password" class="form-control"
-                                            placeholder="Enter Your Password" id="message-text"></input>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class=" btn btn-secondary"
-                                    data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="button btn ">Login</button>
-                            </div>
+       <div class="container">
+        <div class="row header">
+            <div class=" col-md-6 d-flex justify-content-center align-items-center">
+                <div >
+                    <p class="mt-5">Computer-controlled digital transistorized with electronic advanc</p>
+                    <h1 class="text-light mt-2" >Honda CBR 300R</h1>
+                    <p class="mt-4">Amet minim mollit non deserunt ullamco est sit aliqua 
+                     dolor do amet sint. Velit officia consequat duis enim velit 
+                     mollit. Exercitation veniam consequat sunt nostrud amet</p>
+                     <button type="button" class="button btn mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                data-bs-whatever="@mdo">Purchase</button>
+            <div class="modal fade text-body" id="exampleModal" tabindex="-1"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Please login first:</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="recipient-name" class="col-form-label">Email:</label>
+                                    <input type="email" class="form-control" placeholder="Enter Your Email"
+                                        id="recipient-name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message-text" class="col-form-label">Password:</label>
+                                    <input type="password" class="form-control"
+                                        placeholder="Enter Your Password" id="message-text"></input>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class=" btn btn-secondary"
+                                data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="button btn ">Login</button>
                         </div>
                     </div>
                 </div>
+            </div>
+                </div>
+            </div>
+            <div class="mt-5 col-md-6 d-flex justify-content-center align-items-center" >
+                <img class=" w-75" src="./images/header-bike.png" alt="">
+            </div>
         </div>
-         <div>
-             <img class= "" src="./images/header-bike.png" alt="">
-         </div>  
+       </div>
     </header>
     <main>
         <!-- featured bike section 2021 -->
-        <section class="mt-5">
-            <div class="text-center featured-bike-text ">
+        <header class=" mt-5">
+            <div class="text-center featured-bike-text">
                 <h1>Fetured Bikes 2021</h1>
                 <p style="color: #E76F51;">Best bike collection</p>
             </div>
@@ -76,7 +81,7 @@
                 <div class="col-md-3 mx-auto"><img src="./images/feature-bike.jpg" alt=""></div>
                 <div class="gray-scale col-md-3 mx-auto"><img src="./images/feature-bike.jpg" alt=""></div>
             </div>
-        </section>
+        </header>
         <!-- latest News section -->
         <section class="latest-news" >
             <h1 class="text-center my-5 " >latest News</h1>
@@ -304,17 +309,19 @@
         
     </main>
     <footer class=" footer">
-        <div class="mt-5 text-center container-md  ">
-            <ul class="p-4 list-inline text-body">
-                <li class=" text-light list-inline-item">Home</li>
-                <li class=" text-light list-inline-item">Products</li>
-                <li class=" text-light list-inline-item">About Us</li>
-                <li class=" text-light list-inline-item">Contact</li>
-            </ul>
-
-        </div>
-            <div class="d-flex justify-content-center align-items-end " >
-            <p class="text-light" > &copy; 2020 bike. All rights reserve</p>
+        <div class="container">
+            <div class="mt-5 text-center container-md  ">
+                <ul class="p-4 list-inline text-body">
+                    <li class=" text-light list-inline-item">Home</li>
+                    <li class=" text-light list-inline-item">Products</li>
+                    <li class=" text-light list-inline-item">About Us</li>
+                    <li class=" text-light list-inline-item">Contact</li>
+                </ul>
+    
+            </div>
+                <div class="d-flex justify-content-center align-items-end " >
+                <p class="text-light" > &copy; 2020 bike. All rights reserve</p>
+            </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

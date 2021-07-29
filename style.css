@@ -1,3 +1,4 @@
+/* common section */
 body,
 main,
 header,
@@ -90,8 +91,7 @@ h1 {
   .header {
     height: 100%;
   }
-  .header-main img {
-    width: 75%;
-    margin-top: 20px;
+  h1 {
+    font-size: 30px;
   }
 }
